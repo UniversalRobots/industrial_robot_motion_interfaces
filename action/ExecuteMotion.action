@@ -1,4 +1,4 @@
-IndustrialTrajectory trajectory
+MotionSequence trajectory
 ---
 int32 SUCCESSFUL = 0
 int32 INVALID_GOAL = -1

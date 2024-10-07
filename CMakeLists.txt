@@ -8,13 +8,13 @@ find_package(rosidl_default_generators REQUIRED)
 
 
 set(msg_files
-  msg/IndustrialTrajectory.msg
+  msg/MotionSequence.msg
   msg/MotionArgument.msg
   msg/MotionPrimitive.msg
 )
 
 set(action_files
-  action/FollowTrajectory.action
+  action/ExecuteMotion.action
 )
 
 if(BUILD_TESTING)
